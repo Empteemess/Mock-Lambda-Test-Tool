@@ -43,4 +43,16 @@ Mock Lambda Test Tooll -> https://github.com/aws/aws-lambda-dotnet/blob/master/T
 - 6.Use Local Variables + separate testRepository with implemented logic
    ![image](https://github.com/user-attachments/assets/add4ee41-4f01-4bed-bb60-f13cd0b08580)
 
+- 7.aws-lambda-tools-defaults:
+    - {
+      "function-handler": "RestaurantBookingHandler::RestaurantBookingHandler.Function::FunctionHandler",
+      "framework": "net8.0",
+      "function-runtime": "dotnet8",
+      "function-memory-size": 128,
+      "function-timeout": 100,
+      "profile": "my-custom-profile",
+      "region": "eu-west-1"
+    }
+
+
 - To use syndicate clean , build or deploy you must change yndicate.yml with new data from aws creds
