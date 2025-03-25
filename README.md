@@ -10,7 +10,7 @@ Mock Lambda Test Tooll -> https://github.com/aws/aws-lambda-dotnet/blob/master/T
   - The working directory contains the Lambda functions.
 - 3.Assume Role
   - For Team1 use:
-     - aws sts assume-role --role-arn arn:aws:iam::761018851832:role/org/DeveloperAccessRoleTeam1 --role-session-name NewSession (Change Arn and RoleName based on team)
+     - aws sts assume-role --role-arn arn:aws:iam::761018851832:role/org/DeveloperAccessRoleTeam2 --role-session-name NewSession (Change Arn and RoleName based on the team)
   - It will create :
       - AWS_ACCESS_KEY_ID = "yourAccesKey"
       - AWS_SECRET_ACCESS_KEY = "yourAccesKey"
