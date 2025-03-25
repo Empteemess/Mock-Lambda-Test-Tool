@@ -9,7 +9,7 @@ Mock Lambda Test Tooll -> https://github.com/aws/aws-lambda-dotnet/blob/master/T
   - in users folder find .dotnet and find Amazon.Lambda.TestTool.BlazorTester.dll
   - The working directory contains the Lambda functions.
 - 3.Assume Role
-  - For Team1 use:
+  - For Team2 use:
      - aws sts assume-role --role-arn arn:aws:iam::761018851832:role/org/DeveloperAccessRoleTeam2 --role-session-name NewSession (Change Arn and RoleName based on the team)
   - It will create :
       - AWS_ACCESS_KEY_ID = "yourAccesKey"
@@ -51,7 +51,7 @@ Mock Lambda Test Tooll -> https://github.com/aws/aws-lambda-dotnet/blob/master/T
       "function-memory-size": 128,
       "function-timeout": 100,
       "profile": "my-custom-profile",
-      "region": "eu-west-1"
+      "region": "eu-west-2"
     }
 
 
